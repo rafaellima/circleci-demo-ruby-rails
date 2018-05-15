@@ -43,6 +43,7 @@ group :development, :test do
 
   gem 'rspec-rails'
   gem 'rspec_junit_formatter'
+  gem 'parallel_tests'
 end
 
 group :development do
