@@ -67,7 +67,7 @@ jobs:
       # Run rspec in parallel ...
       - type: shell
         command: |
-          ruby split.rb
+          ruby ./split.rb
 
 
       # Save test results for timing analysis
